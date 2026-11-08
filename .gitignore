@@ -1,7 +1,8 @@
 # This index does not own or publish independent component source trees.
 /marimay/
 /editors/
-/examples/
+/examples/*
+!/examples/README.md
 /learning/
 /benchmarks/
 /community/

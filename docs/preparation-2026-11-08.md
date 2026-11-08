@@ -50,7 +50,11 @@ and match-arm syntax; no compiler language semantics were changed.
 
 The Tree-sitter corpus, query checks, invalid fixtures and compiler formatter
 checks pass. Zed queries pass against that grammar. The benchmark Python suite
-passes 105 tests. The workspace export and restore tooling passes eight real-Git
+passes 105 tests. The full documented benchmark verification also passes Go and
+Rust checks and the bounded 21-workload catalogue comparison across Marimay
+VM/native, Go, Rust and Bun. These smoke observations do not establish performance
+parity. The notes process smoke confirms identical VM/native JSON behavior after
+the directory move. The workspace export and restore tooling passes eight real-Git
 fixture tests, including checksum failures, extra histories, clean snapshots,
 private-directory rejection and restoration of independent nested repositories.
 
