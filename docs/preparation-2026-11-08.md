@@ -39,6 +39,12 @@ Historical benchmark artifacts were anonymized without changing measurements.
 Their linked checksums were updated to identify the public artifact bytes; see
 [benchmark provenance](https://github.com/marimay-lang/algorithm-benchmarks/blob/main/benchmarks/results/PUBLICATION-PROVENANCE.md).
 Old measurement reports do not establish current performance or release readiness.
+Three pre-existing malformed compiler evidence packages were rebuilt as valid,
+deterministic archives from preserved originals; their 57 source members retain
+byte-identical contents. Current package checksums and provenance are documented
+in the [publication policy](https://github.com/marimay-lang/marimay/blob/main/docs/security/publication.md).
+Earlier published commits retain their historical package bytes; the corrected
+packages are provided by the new commit without rewriting public compiler history.
 
 ## Validation scope
 
@@ -50,7 +56,7 @@ and match-arm syntax; no compiler language semantics were changed.
 
 The Tree-sitter corpus, query checks, invalid fixtures and compiler formatter
 checks pass. Zed queries pass against that grammar. The benchmark Python suite
-passes 105 tests. The full documented benchmark verification also passes Go and
+passes 106 tests. The full documented benchmark verification also passes Go and
 Rust checks and the bounded 21-workload catalogue comparison across Marimay
 VM/native, Go, Rust and Bun. These smoke observations do not establish performance
 parity. The notes process smoke confirms identical VM/native JSON behavior after
