@@ -27,7 +27,10 @@ Additional remote-only histories were promoted to explicit preservation branches
 Public histories remove exact private paths, internal host details, personal email
 addresses and private instruction files. Contributor display names are retained.
 Exact original histories and old-to-new commit maps remain in the private archive.
-The already-public compiler history was retained without rewriting it.
+At the owner's explicit request, the compiler's public branches and tags are
+also rewritten to exclude all 67 archived experiment payloads and candidate
+patches. Commits and their parent relationships are retained through an exact
+old-to-new map. Original public histories remain in the private recovery archive.
 
 Repository descriptions, README files, banners and supporting documentation use
 English and describe the hobby and learning scope. Existing multilingual program
@@ -39,12 +42,13 @@ Historical benchmark artifacts were anonymized without changing measurements.
 Their linked checksums were updated to identify the public artifact bytes; see
 [benchmark provenance](https://github.com/marimay-lang/algorithm-benchmarks/blob/main/benchmarks/results/PUBLICATION-PROVENANCE.md).
 Old measurement reports do not establish current performance or release readiness.
-Three pre-existing malformed compiler evidence packages were rebuilt as valid,
-deterministic archives from preserved originals; their 57 source members retain
-byte-identical contents. Current package checksums and provenance are documented
-in the [publication policy](https://github.com/marimay-lang/marimay/blob/main/docs/security/publication.md).
-Earlier published commits retain their historical package bytes; the corrected
-packages are provided by the new commit without rewriting public compiler history.
+All 32 experimental archives and 35 candidate patch bundles from compiler
+evidence are retained privately, including three reconstructed packages whose
+57 original source members were verified byte for byte. None of these payloads
+is part of the published tree or rewritten history. Public reports retain
+historical measurements and a [private artifact provenance index](https://github.com/marimay-lang/marimay/blob/main/docs/implementation/evidence/private-artifacts.md),
+with explicit limits on public reconstruction. Build inputs and conformance
+fixtures that are actually required by the compiler remain published.
 
 ## Validation scope
 
