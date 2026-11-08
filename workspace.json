@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "workspace_repository": "marimay-workspace",
+  "description": "Independent repositories for the Marimay hobby programming-language project",
+  "repositories": [
+    {
+      "name": "marimay",
+      "path": "marimay",
+      "role": "Language, compiler, runtime and specification"
+    },
+    {
+      "name": "tree-sitter-marimay",
+      "path": "editors/tree-sitter-marimay",
+      "role": "Syntax grammar and highlighting queries"
+    },
+    {
+      "name": "marimay-zed",
+      "path": "editors/marimay-zed",
+      "role": "Zed editor support"
+    },
+    {
+      "name": "algorithm-benchmarks",
+      "path": "benchmarks/algorithm-benchmarks",
+      "role": "Algorithm workloads and benchmark tooling"
+    },
+    {
+      "name": "algorithms-course",
+      "path": "learning/algorithms-course",
+      "role": "Algorithms learning material"
+    },
+    {
+      "name": "route-planner",
+      "path": "examples/route-planner",
+      "role": "Route planning example"
+    },
+    {
+      "name": "marimay-notes",
+      "path": "examples/marimay-notes",
+      "role": "Notes application example"
+    },
+    {
+      "name": "marimay-config",
+      "path": "examples/marimay-config",
+      "role": "Configuration CLI example"
+    },
+    {
+      "name": "marimay-delimited",
+      "path": "examples/marimay-delimited",
+      "role": "Delimited text CLI example"
+    },
+    {
+      "name": "marimay-env-paths",
+      "path": "examples/marimay-env-paths",
+      "role": "Environment and paths example"
+    },
+    {
+      "name": "marimay-frequency",
+      "path": "examples/marimay-frequency",
+      "role": "Word frequency CLI example"
+    },
+    {
+      "name": "marimay-grep",
+      "path": "examples/marimay-grep",
+      "role": "Text search CLI example"
+    },
+    {
+      "name": "marimay-logstats",
+      "path": "examples/marimay-logstats",
+      "role": "Log statistics CLI example"
+    },
+    {
+      "name": "marimay-manifest",
+      "path": "examples/marimay-manifest",
+      "role": "Manifest CLI example"
+    },
+    {
+      "name": "marimay-project-check",
+      "path": "examples/marimay-project-check",
+      "role": "Project checking CLI example"
+    },
+    {
+      "name": "marimay-source-lint",
+      "path": "examples/marimay-source-lint",
+      "role": "Source linting CLI example"
+    },
+    {
+      "name": "marimay-first-project",
+      "path": "learning/first-project",
+      "role": "First Marimay program"
+    },
+    {
+      "name": ".github",
+      "path": "community/github-profile",
+      "role": "Organization profile and community defaults"
+    }
+  ]
+}

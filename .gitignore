@@ -1,0 +1,25 @@
+# This index does not own or publish independent component source trees.
+/marimay/
+/editors/
+/examples/
+/learning/
+/benchmarks/
+/community/
+
+# Deferred experiments, original histories, and private backups stay local.
+/review-later/
+/.local-archive/
+
+# Local tools, generated output, and file-manager metadata.
+.DS_Store
+__pycache__/
+*.py[cod]
+*.bundle
+/.workspace-local/
+/.soba/
+/.codex/
+/.agents/
+/build/
+/dist/
+/node_modules/
+/.mmay/
